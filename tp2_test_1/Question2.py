@@ -16,7 +16,7 @@ def register_party(parties):
         else:
             print(f"The party '{party_name}' with registration number {reg_number} does not have enough members for registration.")
 
-# Example usage:
+
 parties = [
     {"party_name": "Party A", "reg_number": 100001, "member_count": 4800},
     {"party_name": "Party B", "reg_number": 100002, "member_count": 5200},
@@ -63,7 +63,7 @@ def update_voter_info(voter_info, voter_id, name, voting_district, has_voted):
         voter_info[voter_id] = {"name": name, "voting_district": voting_district, "has_voted": has_voted}
         print(f"New voter with ID {voter_id} added to the database.")
 
-# Example usage:
+
 voter_info = {
     "1234": {"name": "John Doe", "voting_district": "District A", "has_voted": False},
     "5678": {"name": "Jane Smith", "voting_district": "District B", "has_voted": True}
